@@ -9,7 +9,7 @@ function Label = ROCK(X, theta, k)
 % Outputs:
 %   - Label: the label of samples
 % Created at August 23th, 2018
-% Created by Kun Chu <chukun1997@163.com>
+% Created by Kun Chu <kun_chu@outlook.com>
 
 %% Initialization
 numPts = size(X,1);
