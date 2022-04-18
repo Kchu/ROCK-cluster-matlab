@@ -1,9 +1,8 @@
-clear 
-tic
-%load pptdata.mat;  k = 2; theta = 0.3;
-load congressive-votes-1.mat;  k = 2;  theta = 0.78;
+clear all;
+close all;
+load test_data.mat;  k = 2; theta = 0.3;
+% load congressive-votes.mat;  k = 2;  theta = 0.78;
 Result = ROCK(X, theta, k);
-toc
 %N = nmi(Y,Result);
 
 Index = find(Result>0);
